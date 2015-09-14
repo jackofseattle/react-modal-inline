@@ -2,7 +2,9 @@
 
 Accessible modal dialog component for React.JS using inline styles
 
-Modified from code at
+Modified from code at https://github.com/rackt/react-modal
+
+_This project will likely be merged back into React Modal when they finally get time to accept pull requests._
 
 ## Usage
 
@@ -50,6 +52,7 @@ Styles are passed as an object with 2 keys, 'overlay' and 'content' like so
 Styles passed to the modal are merged in with the above defaults and applied to their respective elements.
 At this time, media queries will need to be handled by the consumer.
 
+Note: we don't change styles based on the browser state.  If you want automatic resizing or any fancy css states then check out [Radium](http://projects.formidablelabs.com/radium/) by Formiddable Labs. It's an awesome library for dynamic inline styles.
 
 ## Examples
 Inside an app:
